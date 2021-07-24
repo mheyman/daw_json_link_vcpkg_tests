@@ -1,5 +1,9 @@
 {
-   "name": "weee",
-   "version-string": "0.0.1",
-   "dependencies": ["daw-json-link", "fmt", "nanobench"]
+  "name": "weee",
+  "version-string": "0.0.1",
+  "dependencies": [
+    "daw-json-link",
+    "fmt",
+    "nanobench"
+  ]
 }
