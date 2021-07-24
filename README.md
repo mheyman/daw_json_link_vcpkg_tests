@@ -34,7 +34,8 @@ depends on the `daw-utf-range` port which, in turn, depends on the
 The use of the `nanobench` port. Nanobench can be used header-only or
 header + library. The [vcpkg](https://github.com/microsoft/vcpkg) port of
 nanobench is header-only while the original test code assumed
-header + library.
+header + library. Nanobench dependency
+[here](https://github.com/mheyman/daw_json_link_vcpkg_tests/blob/ac4e438872ac64dc6bc59933d2f9341a8452c8a5/vcpkg.json#L7).
 
 Changes to the unit tests were needed to accomodate that.
 
