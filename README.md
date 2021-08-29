@@ -11,6 +11,7 @@ Easiest is to depend on the vcpkg `daw-json-link` port.
 
 ```sh
 # Set CMAKE_TOOLCHAIN_FILE to where your vcpkg toolchain file actually is located.
+# You can also add -DVCPKG_TARGET_TRIPLET=... to get other than the default vcpkg triplet
 cmake -B build -S . -G Ninja -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake
 
 cmake --build build
